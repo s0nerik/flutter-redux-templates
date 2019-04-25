@@ -1,0 +1,8 @@
+<templateSet group="Fluter: built_value">
+  <template name="built" value="abstract class $CLASS_NAME$ implements Built&lt;$CLASS_NAME$, $CLASS_NAME$Builder&gt; {&#10;  $CLASS_NAME$._();&#10;  factory $CLASS_NAME$([updates($CLASS_NAME$Builder b)]) = _$$$CLASS_NAME$;&#10;}" description="New BuiltValue class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>

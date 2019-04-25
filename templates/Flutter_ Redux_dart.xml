@@ -1,0 +1,10 @@
+<templateSet group="Flutter: Redux.dart">
+  <template name="reducer" value="$STATE$ _on$ACTION$($STATE$ state, $ACTION$ action) =&gt; state.rebuild((b) =&gt; $BODY$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
